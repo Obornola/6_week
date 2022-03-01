@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .grid {
+            display: grid;
+            grid-template-columns: 100px 30% 1fr;
+            grid-template-rows: 200px 100px;
+            gap: 10px;
+        }
+
+        .column {
+            background: linear-gradient(to bottom right, blue, rgb(180, 180, 235));
+            border: 4px solid black;
+            box-shadow: 0 5px 5px rgb(143, 141, 141);
+        }
+    </style>
+</head>
+
+<body>
+    <div class="grid">
+        <div class="column"></div>
+        <div class="column"></div>
+        <div class="column"></div>
+        <div class="column"></div>
+        <div class="column"></div>
+        <div class="column"></div>
+    </div>
+</body>
+
+</html>
